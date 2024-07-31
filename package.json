@@ -76,9 +76,9 @@
   },
   "dependencies": {
     "@jsonhero/json-infer-types": "1.2.x",
-    "@jsonhero/json-schema-fns": "git+https://github.com/dariusk/json-schema-fns.git",
-    "ts-pattern": "^3.3.4",
-    "lodash.omit": "^4.5.0"
+    "@jsonhero/json-schema-fns": "github:dariusk/json-schema-fns",
+    "lodash.omit": "^4.5.0",
+    "ts-pattern": "^3.3.4"
   },
   "bin": {
     "schema-infer": "cli/schema-infer.js"
