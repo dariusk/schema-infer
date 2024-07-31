@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsonhero-io/schema-infer.git"
+    "url": "git+https://github.com/jsonhero-io/schema-infer.git"
   },
   "exports": "./lib/index.js",
   "types": "lib/index.d.ts",
@@ -76,11 +76,11 @@
   },
   "dependencies": {
     "@jsonhero/json-infer-types": "1.2.x",
-    "@jsonhero/json-schema-fns": "https://github.com/dariusk/json-schema-fns",
+    "@jsonhero/json-schema-fns": "git+https://github.com/dariusk/json-schema-fns.git",
     "ts-pattern": "^3.3.4",
     "lodash.omit": "^4.5.0"
   },
   "bin": {
-    "schema-infer": "./cli/schema-infer.js"
+    "schema-infer": "cli/schema-infer.js"
   }
 }
